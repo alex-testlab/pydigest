@@ -16,6 +16,7 @@ setup(
     url='http://bitbucket.org/akoha/python-digest/',
     packages=['python_digest'],
     package_dir={'python_digest': 'python_digest'},
+    install_requires=['six'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
