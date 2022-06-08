@@ -3,7 +3,7 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 from setuptools import setup
 
-with open('README.rst') as f:
+with open('README') as f:
     readme = f.read()
 
 long_description = readme
