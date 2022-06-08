@@ -77,6 +77,7 @@ except ImportError:
         ez['use_setuptools'](to_dir=tmpeggs, download_delay=0)
 
     if to_reload:
+        from imp import reload
         reload(pkg_resources)
     else:
         import pkg_resources
