@@ -41,7 +41,7 @@ class State(object):
     Return False to keep the current state, or True to pop it
     '''
     def consume(c):
-        raise Execption('Unimplemented')
+        raise Exception('Unimplemented')
 
 class ParentState(State):
     def __init__(self):
