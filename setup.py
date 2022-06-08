@@ -3,10 +3,17 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 from setuptools import setup
 
+with open('README.rst') as f:
+    readme = f.read()
+
+long_description = readme
+
 setup(
     name='pydigest',
     version='1.8',
     description=('A Python library to aid in implementing HTTP Digest Authentication.'),
+    long_description=long_description,
+    long_description_content_type='text/plain',
     author='Akoha Inc.',
     author_email='adminmail@akoha.com',
     url='http://bitbucket.org/akoha/python-digest/',
