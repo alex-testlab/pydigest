@@ -7,10 +7,6 @@ setup(
     name='pydigest',
     version='1.8',
     description=('A Python library to aid in implementing HTTP Digest Authentication.'),
-    long_description=(
-"""
-"""
-    ),
     author='Akoha Inc.',
     author_email='adminmail@akoha.com',
     url='http://bitbucket.org/akoha/python-digest/',
